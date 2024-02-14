@@ -21,8 +21,8 @@
     - name: create tag to image
       command: docker tag comingsoon-website1-img siwarziadi/comingsoon-website1-img
 
-    - name: push image to dockerhub
-      command: docker push siwarziadi/comingsoon-website1-img
+    #- name: push image to dockerhub
+    # command: docker push siwarziadi/comingsoon-website1-img
 
     - name: remove docker created images
       command: docker rmi  siwarziadi/comingsoon-website1-img
